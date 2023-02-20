@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "OTP_JS_new",
+    "pageId": "Login Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Login Page_OTP_JS_new",
+  "deleted": false,
+  "gitSyncId": "634d943922208e7f4e4f3119_634d943a22208e7f4e4f3182"
+}
