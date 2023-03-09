@@ -1,0 +1,7 @@
+UPDATE public."address" SET
+		"address" = '{{update_form.fieldState.address.isVisible ? update_form.formData.address : update_form.sourceData.address}}',
+		"Address2" = '{{update_form.fieldState.Address2.isVisible ? update_form.formData.Address2 : update_form.sourceData.Address2}}',
+    "District" = '{{update_form.fieldState.District.isVisible ? update_form.formData.District : update_form.sourceData.District}}',
+		"postal_code" = '{{update_form.fieldState.postal_code.isVisible ? update_form.formData.postal_code : update_form.sourceData.postal_code}}',
+		"phone" = '{{update_form.fieldState.phone.isVisible ? update_form.formData.phone : update_form.sourceData.phone}}'
+WHERE "address_id" = {{data_table.selectedRow.address_id}};

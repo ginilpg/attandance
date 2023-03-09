@@ -1,0 +1,14 @@
+INSERT INTO public."address" (
+	"address_id",
+	"address",
+	"Address2",
+	"District",
+	"postal_code",
+	"phone")
+VALUES (
+	'{{insert_form.formData.address_id}}',
+	'{{insert_form.formData.address}}',
+	'{{insert_form.formData.Address2}}',
+	'{{insert_form.formData.District}}',
+	'{{insert_form.formData.postal_code}}',
+	'{{insert_form.formData.phone}}');
