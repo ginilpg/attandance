@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 760,
+          "bottomRow": 740,
           "containerStyle": "none",
           "snapRows": 85,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 70,
+          "version": 77,
           "minHeight": 860,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -71,7 +71,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 740,
+                  "bottomRow": 720,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -181,36 +181,6 @@
                           "key": "boxShadow"
                         },
                         {
-                          "key": "childStylesheet.button.buttonColor"
-                        },
-                        {
-                          "key": "childStylesheet.button.borderRadius"
-                        },
-                        {
-                          "key": "childStylesheet.menuButton.menuColor"
-                        },
-                        {
-                          "key": "childStylesheet.menuButton.borderRadius"
-                        },
-                        {
-                          "key": "childStylesheet.iconButton.buttonColor"
-                        },
-                        {
-                          "key": "childStylesheet.iconButton.borderRadius"
-                        },
-                        {
-                          "key": "childStylesheet.editActions.saveButtonColor"
-                        },
-                        {
-                          "key": "childStylesheet.editActions.saveBorderRadius"
-                        },
-                        {
-                          "key": "childStylesheet.editActions.discardButtonColor"
-                        },
-                        {
-                          "key": "childStylesheet.editActions.discardBorderRadius"
-                        },
-                        {
                           "key": "tableData"
                         },
                         {
@@ -273,6 +243,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "columnUpdatedAt": 1677573312932,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -326,7 +297,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "emp_id": {
                           "allowCellWrapping": false,
@@ -353,7 +325,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"emp_id\"]))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "checkin_time": {
                           "allowCellWrapping": false,
@@ -380,7 +353,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"checkin_time\"]))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "checkout_time": {
                           "allowCellWrapping": false,
@@ -407,7 +381,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"checkout_time\"]))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "checkin_location": {
                           "allowCellWrapping": false,
@@ -434,7 +409,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"checkin_location\"]))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "checkout_location": {
                           "allowCellWrapping": false,
@@ -461,7 +437,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"checkout_location\"]))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "created_date": {
                           "allowCellWrapping": false,
@@ -488,7 +465,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( Date(currentRow[\"created_date\"])))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "modified_date": {
                           "allowCellWrapping": false,
@@ -515,10 +493,12 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"modified_date\"]))}}",
                           "cellBackground": "",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         }
                       },
                       "key": "d30j7jgqhf",
+                      "canFreezeColumn": false,
                       "isDeprecated": false,
                       "rightColumn": 64,
                       "textSize": "0.875rem",
@@ -826,7 +806,7 @@
                           "widgetName": "Canvas6",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 440,
+                          "bottomRow": 680,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -935,7 +915,7 @@
                                   "detachFromLayout": true,
                                   "widgetId": "eozxn8dzfi",
                                   "containerStyle": "none",
-                                  "bottomRow": 370,
+                                  "bottomRow": 190,
                                   "topRow": 0,
                                   "parentRowSpace": 1,
                                   "isVisible": true,
@@ -1216,7 +1196,7 @@
                                   "detachFromLayout": true,
                                   "widgetId": "93bofukkw0",
                                   "containerStyle": "none",
-                                  "bottomRow": 300,
+                                  "bottomRow": 200,
                                   "topRow": 0,
                                   "parentRowSpace": 1,
                                   "isVisible": true,
@@ -1771,7 +1751,7 @@
                           "widgetName": "Canvas5",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 680,
+                          "bottomRow": 660,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -1822,6 +1802,7 @@
                               "dynamicHeight": "FIXED",
                               "widgetId": "fshyt7k6xh",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "showStepArrows": true,
                               "isVisible": true,
                               "label": "CheckOut",
                               "version": 2,
@@ -1877,6 +1858,7 @@
                               "dynamicHeight": "FIXED",
                               "widgetId": "4eo4gqwb8y",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "showStepArrows": true,
                               "isVisible": true,
                               "label": "",
                               "version": 2,
@@ -2080,6 +2062,7 @@
                               "dynamicHeight": "FIXED",
                               "widgetId": "6gncrklvfu",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "showStepArrows": true,
                               "isVisible": true,
                               "label": "CheckIn Time",
                               "version": 2,
@@ -2135,6 +2118,7 @@
                               "dynamicHeight": "FIXED",
                               "widgetId": "f9lu8xq4jn",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "showStepArrows": true,
                               "isVisible": true,
                               "label": "",
                               "version": 2,
