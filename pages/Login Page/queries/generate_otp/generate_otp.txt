@@ -1,3 +1,16 @@
 update login_otp set is_active=0 where emp_id='{{this.params.emp_id}}{{mobile.text}}';
 
 insert into login_otp (emp_id,otp) values ('{{this.params.emp_id}}',{{this.params.otp}});
+
+
+ffffff
+fff
+
+fff
+fffff
+fffff
+fffff
+sfsdsfss
+sfsfsfsd
+sdfsdfsfsffsfsfsfsdfs
+sdfsfds
