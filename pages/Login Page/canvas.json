@@ -872,7 +872,9 @@
               "collectionId": "Login Page_OTP_JS",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "async () => {\n  if (appsmith.store.userData != undefined && appsmith.store.userData.emp_id) navigateTo(\"Attendance View\");\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
