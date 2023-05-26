@@ -53,8 +53,8 @@
   "publishedApplicationDetail": {
     "navigationSetting": {
       "showNavbar": true,
-      "orientation": "side",
-      "navStyle": "sidebar",
+      "orientation": "top",
+      "navStyle": "stacked",
       "position": "static",
       "itemStyle": "text",
       "colorStyle": "light",
@@ -69,7 +69,7 @@
     "type": "TABLET"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "TABLET"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
