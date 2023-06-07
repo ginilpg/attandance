@@ -828,8 +828,8 @@
                 "sound recorder",
                 "voice recorder"
               ],
-              "topRow": 35,
-              "bottomRow": 42,
+              "topRow": 37,
+              "bottomRow": 44,
               "parentRowSpace": 10,
               "type": "AUDIO_RECORDER_WIDGET",
               "hideCard": false,
@@ -857,10 +857,63 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 35,
+              "originalTopRow": 37,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 42,
+              "originalBottomRow": 44,
               "iconColor": "white"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "mobileBottomRow": 37,
+              "widgetName": "Button3",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 33,
+              "bottomRow": 37,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 17,
+              "animateLoading": true,
+              "parentColumnSpace": 12.3125,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Submit",
+              "isDisabled": false,
+              "key": "kqh92qd1f5",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "isDefaultClickDisabled": true,
+              "widgetId": "gzk9bla9a0",
+              "minWidth": 120,
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 33,
+              "responsiveBehavior": "hug",
+              "originalTopRow": 33,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 1,
+              "originalBottomRow": 37,
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
             }
           ]
         },
@@ -872,9 +925,7 @@
               "collectionId": "Login Page_OTP_JS",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  if (appsmith.store.userData != undefined && appsmith.store.userData.emp_id) navigateTo(\"Attendance View\");\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
